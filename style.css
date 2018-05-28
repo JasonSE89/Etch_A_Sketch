@@ -10,5 +10,8 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 55px 333px 60px;
+  grid-template-rows: 55px 232px 65px;
   background-image: url("images/etchasketch.png");
 }
