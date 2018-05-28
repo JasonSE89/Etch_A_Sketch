@@ -3,6 +3,7 @@ body{
 
 }
 
+/*Container for grid */
 .container{
   width: 453px;
   height: 371px;
@@ -11,7 +12,20 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   display: grid;
-  grid-template-columns: 55px 333px 60px;
-  grid-template-rows: 55px 232px 65px;
+  grid-template-columns: 60px 335px 60px;
+  grid-template-rows: 67px 225px 65px;
   background-image: url("images/etchasketch.png");
+}
+
+/*Area containing Screen*/
+.center{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border-radius: 10px;
+  background-color: #e5e5ee;
+}
+
+table{
+  height: 100%;
+  width: 100%;
 }
