@@ -1,0 +1,14 @@
+body{
+  background-image: url("images/Background.png");
+
+}
+
+.container{
+  width: 453px;
+  height: 371px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("images/etchasketch.png");
+}
